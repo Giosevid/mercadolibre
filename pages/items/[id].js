@@ -31,7 +31,6 @@ const Id = ({ news, newsOne }) => {
 Id.getInitialProps = async ({ query }) => {
   let news;
   let newsOne;
-  console.log('query', query?.id)
     try {
       const res = await fetch(`https://api.mercadolibre.com/items/${query?.id}/description`);
       const resOne = await fetch(`https://api.mercadolibre.com/items/${query?.id}`);
