@@ -1,0 +1,74 @@
+@import "./fontawesome/fontawesome";
+@import "./fontawesome/brands";
+@import "./fontawesome/regular";
+@import "./fontawesome/solid";
+body {
+  margin: 0;
+  background-color: $fa-gray-background;
+}
+
+.header {
+  padding: 0 $fa-font-size-base;
+  background-color: $fa-base-color;
+  height: 50px;
+  padding: 0 35px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  .row {
+    align-items: center;
+  }
+  input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    padding: $fa-font-size-base / 2;
+    font-size: 16px;
+  }
+  .nav-search-input {
+    height: 20px;
+    width: 100px;
+    width: 520px;
+  }
+}
+
+.btn-light {
+  border-color: none;
+  background-color: $fa-white-background;
+}
+
+.wrapper-card {
+  padding: 0 20px;
+  cursor: pointer;
+  img {
+    width: 100%;
+    max-width: 70%;
+  }
+  .price {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .location {
+    margin-top: 50px
+  }
+  .title {
+    margin-top: 20px;
+  }
+}
+
+.wrapper-card-detail {
+  padding: 0 200px;
+  img {
+    width: 100%;
+  }
+  .title {
+    margin-top: 20px;
+  }
+  .subtitle {
+    margin-top: 40px;
+  }
+  .button {
+    margin-top: 40px;
+  }
+}
